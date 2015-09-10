@@ -31,6 +31,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         setupContainerViews()
         setupFirstContainer(self.firstContainer)
+        setupSecondContainer(self.secondContainer) //can remove 'self' from here and will still work. Also, could ADD self to setupSecondContainer
     }
 
     override func didReceiveMemoryWarning() {
