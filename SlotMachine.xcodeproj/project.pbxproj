@@ -14,6 +14,7 @@
 		96003DC21B9620DA0067DA67 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96003DC01B9620DA0067DA67 /* LaunchScreen.xib */; };
 		96003DCE1B9620DA0067DA67 /* SlotMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96003DCD1B9620DA0067DA67 /* SlotMachineTests.swift */; };
 		96003DD81BAD27990067DA67 /* Slot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96003DD71BAD27990067DA67 /* Slot.swift */; };
+		96003DDA1BAD29530067DA67 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96003DD91BAD29530067DA67 /* Factory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		96003DCC1B9620DA0067DA67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96003DCD1B9620DA0067DA67 /* SlotMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineTests.swift; sourceTree = "<group>"; };
 		96003DD71BAD27990067DA67 /* Slot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slot.swift; sourceTree = "<group>"; };
+		96003DD91BAD29530067DA67 /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				96003DD71BAD27990067DA67 /* Slot.swift */,
 				96003DBB1B9620DA0067DA67 /* Main.storyboard */,
 				96003DBE1B9620DA0067DA67 /* Images.xcassets */,
+				96003DD91BAD29530067DA67 /* Factory.swift */,
 				96003DC01B9620DA0067DA67 /* LaunchScreen.xib */,
 				96003DB51B9620DA0067DA67 /* Supporting Files */,
 			);
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96003DDA1BAD29530067DA67 /* Factory.swift in Sources */,
 				96003DBA1B9620DA0067DA67 /* ViewController.swift in Sources */,
 				96003DD81BAD27990067DA67 /* Slot.swift in Sources */,
 				96003DB81B9620DA0067DA67 /* AppDelegate.swift in Sources */,

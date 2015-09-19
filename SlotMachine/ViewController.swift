@@ -52,6 +52,8 @@ class ViewController: UIViewController {
         setupSecondContainer(self.secondContainer) //can remove 'self' from here and will still work. Also, could ADD self to setupSecondContainer
         setupThirdContainer(self.thirdContainer)
         setupFourthContainer(self.fourthContainer)
+        
+        Factory.createSlots()
     }
 
     override func didReceiveMemoryWarning() {
