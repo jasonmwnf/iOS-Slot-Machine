@@ -33,6 +33,8 @@ class ViewController: UIViewController {
     var betMaxButton: UIButton!
     var spinButton: UIButton!
     
+    var slots:[[Slot]] = []
+    
     let kMarginForView: CGFloat = 10.0
     let kMarginForSlot: CGFloat = 2.0
     let kSixth: CGFloat = 1.0/6.0
@@ -76,7 +78,8 @@ class ViewController: UIViewController {
     }
     
     func spinButtonPressed (button: UIButton) {
-        
+        slots = Factory.createSlots()
+        setupSecondContainer(self.secondContainer)
     }
     
     func setupContainerViews() {
